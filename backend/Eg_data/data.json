@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Groceries",
+    "amount": 2800,
+    "type": "expense",
+    "date": "2025-07-01T00:00:00Z",
+    "category": "Food",
+    "description": "Weekly food shop"
+  },
+  {
+    "title": "Electric Bill",
+    "amount": 3200,
+    "type": "expense",
+    "date": "2025-07-28T00:00:00Z",
+    "category": "Utilities",
+    "description": "June electricity"
+  },
+  {
+    "title": "Fuel",
+    "amount": 2500,
+    "type": "expense",
+    "date": "2025-07-25T00:00:00Z",
+    "category": "Transport",
+    "description": "Petrol refill"
+  },
+  {
+    "title": "Internet",
+    "amount": 1800,
+    "type": "expense",
+    "date": "2025-07-20T00:00:00Z",
+    "category": "Utilities",
+    "description": "Monthly WiFi fee"
+  },
+  {
+    "title": "Dining Out",
+    "amount": 2200,
+    "type": "expense",
+    "date": "2025-07-18T00:00:00Z",
+    "category": "Food",
+    "description": "Dinner with family"
+  },
+  {
+    "title": "Gym",
+    "amount": 1500,
+    "type": "expense",
+    "date": "2025-07-15T00:00:00Z",
+    "category": "Health",
+    "description": "Monthly membership"
+  },
+  {
+    "title": "Phone Bill",
+    "amount": 1300,
+    "type": "expense",
+    "date": "2025-07-13T00:00:00Z",
+    "category": "Utilities",
+    "description": "Postpaid charge"
+  },
+  {
+    "title": "Snacks",
+    "amount": 800,
+    "type": "expense",
+    "date": "2025-07-11T00:00:00Z",
+    "category": "Food",
+    "description": "Chips and soda"
+  },
+  {
+    "title": "Books",
+    "amount": 2300,
+    "type": "expense",
+    "date": "2025-07-09T00:00:00Z",
+    "category": "Education",
+    "description": "Reference material"
+  },
+  {
+    "title": "Laundry",
+    "amount": 900,
+    "type": "expense",
+    "date": "2025-07-06T00:00:00Z",
+    "category": "Home",
+    "description": "Dry cleaning"
+  },
+  {
+    "title": "Coffee",
+    "amount": 600,
+    "type": "expense",
+    "date": "2025-07-03T00:00:00Z",
+    "category": "Food",
+    "description": "Cafe visit"
+  },
+  {
+    "title": "Taxi",
+    "amount": 1200,
+    "type": "expense",
+    "date": "2025-07-01T00:00:00Z",
+    "category": "Transport",
+    "description": "Late night ride"
+  },
+  {
+    "title": "Streaming",
+    "amount": 1100,
+    "type": "expense",
+    "date": "2025-07-29T00:00:00Z",
+    "category": "Entertainment",
+    "description": "Netflix monthly"
+  },
+  {
+    "title": "Gift",
+    "amount": 3000,
+    "type": "expense",
+    "date": "2025-07-25T00:00:00Z",
+    "category": "Gifts",
+    "description": "Birthday gift"
+  },
+  {
+    "title": "Insurance",
+    "amount": 9100,
+    "type": "expense",
+    "date": "2025-07-20T00:00:00Z",
+    "category": "Finance",
+    "description": "Quarterly policy"
+  }
+]
