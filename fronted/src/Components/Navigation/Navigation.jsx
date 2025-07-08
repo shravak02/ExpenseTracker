@@ -41,7 +41,7 @@ const NavStyled = styled.nav`
     padding: 2rem 1.5rem;
     width: 374px;
     height: 100%;
-    background: rgba(173, 157, 165, 0.78);
+    background: rgba(173, 157, 165, 0.341);
     border: 3px solid #632222;
     backdrop-filter: blur(4.5px);
     border-radius: 32px;

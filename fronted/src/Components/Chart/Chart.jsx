@@ -38,6 +38,37 @@ function Chart() {
     // 3. Prepare data arrays for each dataset
     const incomeData = sumByDate(incomes, allDates)
     const expenseData = sumByDate(expenses, allDates)
+    const options = {
+    responsive: true,
+    plugins: {
+        legend: {
+            labels: {
+                color: 'black'  // legend text color
+            }
+        },
+        title: {
+            display: false
+        }
+    },
+    scales: {
+        x: {
+            ticks: {
+                color: 'black'  // X-axis numbers color
+            },
+            grid: {
+                color: 'rgba(0,0,0,0.1)' // optional: light grid lines
+            }
+        },
+        y: {
+            ticks: {
+                color: 'black'  // Y-axis numbers color
+            },
+            grid: {
+                color: 'rgba(0,0,0,0.1)' // optional
+            }
+        }
+    }
+}
 
     const data = {
         labels: allDates,
@@ -61,13 +92,14 @@ function Chart() {
 
     return (
         <ChartStyled>
-            <Line data={data} />
+            <Line data={data} options={options}/>
         </ChartStyled>
     )
 }
 
 const ChartStyled = styled.div`
-    background: #FCF6F9;
+    background: #7d6b749f;
+    color: black;
     border: 2px solid #FFFFFF;
     box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
     padding: 1rem;

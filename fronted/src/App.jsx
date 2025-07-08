@@ -54,8 +54,8 @@ const AppStyled = styled.div`
   position: relative;
   main{
     flex: 1;
-    height: 89vh;
-    background: rgba(173, 157, 165, 0.78);
+    height: 87vh;
+    background: rgba(173, 157, 165, 0.463);
     border: 3px solid #632222;
    // border: 3px solid #FFFFFF;
     backdrop-filter: blur(4.5px);
