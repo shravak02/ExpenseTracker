@@ -13,7 +13,7 @@ function App() {
   const [active, setActive] = useState(1)
 
   const global = useGlobalContext()
-  console.log(global);
+  console.log(global); 
 
   const displayData = () => {
     switch(active){
@@ -50,9 +50,11 @@ function App() {
 const AppStyled = styled.div`
   height: 100vh;
   background-image: url(${props => props.bg});
+  background-size: cover;
   position: relative;
   main{
     flex: 1;
+    height: 89vh;
     background: rgba(173, 157, 165, 0.78);
     border: 3px solid #632222;
    // border: 3px solid #FFFFFF;
